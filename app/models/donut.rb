@@ -3,7 +3,4 @@ class Donut < ActiveRecord::Base
 
   validates_presence_of [:title, :flavor, :calories, :shape]
 
-  def readonly?
-    true
-  end
 end
